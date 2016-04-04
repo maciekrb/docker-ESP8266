@@ -1,0 +1,5 @@
+devenv:
+  privileged: true
+  build: .
+  volumes:
+    - ./src:/home/dev/src
