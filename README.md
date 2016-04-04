@@ -10,7 +10,7 @@ $ docker-compose build devenv
 ```
 
 If your docker version relies on VirtualBox, make sure you make the USB device available to the image:
-![USB Device config](https://github.com/maciekrb/docker-ESP8266/assets/vboxusbconf.png "Virtual Box USB Device config")
+![USB Device config](https://github.com/maciekrb/docker-ESP8266/blob/master/assets/virtualboxusbconf.png "Virtual Box USB Device config")
 
 Create a `src` directory in the root of the project, and you are ready to get a shell inside of the container. Note that anything you have under the `src/` directory will get mounted under `/home/dev/src` inside the container.
 
